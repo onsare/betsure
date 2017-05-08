@@ -1,0 +1,39 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+}
+
+div #background img{
+	
+	width: 100%;
+	
+}
+section{
+	background-color: #ccc;
+	margin:0px;
+	padding:20px;
+}
+div .content {
+	
+	 position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    background-color: rgba(255,255,255,0.5);
+    /*opacity: 0.2;*/
+    color: #fff;
+    padding-top: 20px;
+    position: fixed;
+    border-radius: 15px;
+
+}
+
+h1,h2{
+	text-align: center;
+}
+
+div .content li{
+	list-style: none;
+}
